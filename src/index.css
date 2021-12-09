@@ -1,0 +1,14 @@
+body {
+ background-image: url(./components/bg.gif);  
+ /* background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX2834826.jpg); */
+ background-size: auto ;
+ margin: 0;
+  font-family: "Kaisei Tokumin", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

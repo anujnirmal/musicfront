@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.navbar-out{
+    font-family: 'Poppins' , sans-serif;    
+    
+}
+
+.navbar-items {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px ;
+}
+
+.cont {
+    margin: 10px; 
+    height: 70vh;
+    overflow-y: auto;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    
+  }
+
+  #inputBar {
+    height:40px;
+    width:250px;
+    font-family: 'Poppins' , sans-serif; 
+    font-size:15px;
+    align-self: center;
+    padding:12px;
+    border: none;
+    appearance:none; 
+    outline:none;
+    border-radius: 3px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    color:white;
+   
+  }
+  
+  #send-btn {
+   color:white;
+   align-items: center;
+   margin-left:10px;
+   background-color: white; 
+   font-size: 1rem;
+   display: inline-block;
+   font-weight: bold;       
+   box-shadow: inset 0 0 0.5em 0 var #0073cf, 0 0 0.5em 0 var #0073cf ;
+   cursor: pointer;
+   border: none; 
+   padding: 5px 20px;
+   border-radius: 20px;
+   transition: 0.5s ;
+   background-color: #a4508b;
+   background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+   
+   
+  
+  }
+
+  #send-btn:hover {
+    
+    color:white;
+    background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+
+  }
+
+  .message-area {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin:20px 10px;
+  
+  }
+
+  .leftside {
+    display: flex;
+    margin-bottom:10px;
+    width:50% ;
+    margin-right:10px;
+    align-content: center;
+    align-items:center; 
+    text-align: center;
+    float:left; 
+    clear: both;
+    
+    
+  }
+
+  .rightside {
+    display: flex;
+    width:50% ;
+    justify-content: right;
+    align-content: center;
+    align-items:center; 
+    text-align: center;
+    float:right; 
+    clear:both;
+  }
+ 
+   
+.messageBox {
+  color: white;
+  margin: 10px 5px;
+  padding:10px;
+  background-color: rgba(255, 255, 255, 0.164);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.centerside {
+  text-align: center;
+  margin:auto ;
+  display: inline-block ;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  margin-right:10px;
+}

@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ 
+ 
+ .out {
+   display: "flex" ; 
+   flex-direction: row;
+   justify-content: center;
+ }
+
+
+
+h2 {
+  color: rgb(90, 106, 248);
+  align-self: center;
+  text-align: center;
+}
+
+.card_container {
+ 
+  display:flex; 
+  justify-content:center;
+  align-items:center
+}
+.card {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding-left:20px ;
+  padding-bottom :20px ;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.textfield {
+  height: 10px !important;
+  color:"white" !important; 
+  background-color: tomato;
+}
+
+.username-container {
+  display: "flex";
+  flex-direction: "column" ;
+  margin-top: 10px;
+  
+}
+
+.formhead {
+  margin: 5px ;
+  margin-left: 40px ;
+  color:rgb(212, 211, 211);
+}
+
+.row {
+  display: flex;
+}
+
+.button { 
+  display: flex;
+  font-size: 15px ;
+  width: auto ;
+  border: 1px black;
+  border-radius: 30px;
+  color: white;
+  align-items: center;
+  justify-content: start;
+  padding:10px 20px;
+  height:40px;
+  font-family: 'Poppins', sans-serif ; 
+  background-color: #1fd1f9;
+  background: linear-gradient(to right, #121742 0%, #03217b 79%);
+  transition: 0.5s; 
+    
+}   .button1 { 
+  display: flex;
+  font-size: 15px ;
+  width: 200px ;
+  border: 1px black;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding:10px 20px;
+  height:40px;
+  font-family: 'Poppins', sans-serif ; 
+  background-color: #1fd1f9;
+  background: linear-gradient(to right, #121742 0%, #03217b 79%);
+  margin: 10px; 
+  transition: 0.5s; 
+  
+    
+}   
+
+.button1:hover {
+  opacity: 0.9;
+  color : white;
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+ 
+}
+
+.button:hover {
+  opacity: 0.2;
+  color : white;
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+ 
+}
+
+.logo{
+  
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+
+
+.slash-page-card {
+  font-family: 'Poppins', sans-serif;
+  font-size:20px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  height: 50vh;
+  width: 50vw ;
+  color: white ;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 50%);
+border-radius: 10px;
+}
+
+
+.simpletext {
+  color: white ;
+  font-family: 'Poppins', sans-serif ;
+  
+}
+
+.room-details {
+  padding: 20px; 
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px    ;
+  background-color: #2a2a72;
+  backdrop-filter: blur(8.5px);
+  font-family: 'Poppins', sans-serif;
+  color:"white" ;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+
+}
+
+.copy-button {
+  outline:none ;
+  border: none ;
+  background-color: transparent;
+  color: "white"; 
+  font-family: 'Poppins', sans-serif;
+}
+
+#inputBar {
+  height:40px;
+  width:250px;
+  font-family: 'Poppins' , sans-serif; 
+  font-size:15px;
+  align-self: center;
+  padding:12px;
+  border: none;
+  appearance:none; 
+  outline:none;
+  border-radius: 3px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  color:white;
+ 
+}
+
+
+.loading-text {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  background-color: #a4508b;
+  font-weight: bolder;
+  background: linear-gradient(326deg, #a4508b 0%, #5f0a87 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
